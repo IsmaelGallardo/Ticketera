@@ -1,0 +1,15 @@
+.contenedorImagen {
+    background-color: red;
+    max-height: 25rem;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    
+}
+.item {
+    
+}
+img {
+    
+    
+}
