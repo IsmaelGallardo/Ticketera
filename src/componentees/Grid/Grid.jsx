@@ -13,28 +13,24 @@ export default function Grid() {
     <>
         <div className="contenido py-5 bg-light text-bg-light">
             <h3 className="border-bottom">Eventos destacados</h3>
-            <div className="contenido__destacado">
+            <div className="contenido__destacado border-bottom">
                 <div className="contenido__imagen ">
                     <img src={img1} alt="" class="align-items-center"/>
-                    <h5 className="py-1">{Data[3].titulo}</h5>
-                    
+                    <h5 className="py-2">{Data[3].titulo}</h5>
                     <h6>Fecha: {Data[3].fecha}</h6>
                     <h6>Lugar: {Data[3].lugar}</h6>
-                    <hr/>
                 </div>
                 <div className="contenido__imagen ">
                     <img src={img2} alt=""/>
-                    <h5 className="py-1">{Data[4].titulo}</h5>
+                    <h5 className="py-2">{Data[4].titulo}</h5>
                     <h6>Fecha: {Data[4].fecha}</h6>
                     <h6>Lugar: {Data[4].lugar}</h6>
-                    <hr/>
                 </div>
                 <div className="contenido__imagen ">
                     <img src={img3} alt=""/>
-                    <h5 className="py-1">{Data[5].titulo}</h5>
+                    <h5 className="py-2">{Data[5].titulo}</h5>
                     <h6>Fecha: {Data[5].fecha}</h6>
                     <h6>Lugar: {Data[5].lugar}</h6>
-                    <hr/>
                 </div>
             </div>
         </div>
